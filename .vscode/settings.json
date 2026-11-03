@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^pwd && printf '\\\\nTop-level entries:\\\\n' && find \\. -maxdepth 2 -mindepth 1 -print \\| sort \\| sed -n '1,120p'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
